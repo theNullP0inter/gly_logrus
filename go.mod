@@ -1,4 +1,4 @@
-module github.com/theNullP0inter/googly-contrib-logrus
+module github.com/theNullP0inter/gly_logrus
 
 go 1.13
 
