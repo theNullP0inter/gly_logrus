@@ -11,7 +11,7 @@ type GooglyLogrusLogger struct {
 }
 
 // WithData adds extra info to your logs
-func (l *GooglyLogrusLogger) WithData(data map[string]interface{}) logger.LoggerInterface {
+func (l *GooglyLogrusLogger) WithData(data map[string]interface{}) logger.Logger {
 	return l.Logger.WithFields(data)
 }
 
